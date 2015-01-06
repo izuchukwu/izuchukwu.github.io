@@ -4362,9 +4362,11 @@ footer.short-2 .contact-action:hover {
 @media all and (max-width: 767px) {
   h1 {
     padding-left: 30px;
+    padding-right: 30px;
   }
   span {
     padding-left: 30px;
+    padding-right: 30px;
   }
   p {
     font-size: 15px !important;
