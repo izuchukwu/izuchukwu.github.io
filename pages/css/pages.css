@@ -2336,7 +2336,7 @@ hr.dotted {
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   margin-bottom: 0;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #CCCCCC;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
