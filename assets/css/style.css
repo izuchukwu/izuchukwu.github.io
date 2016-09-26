@@ -1153,7 +1153,7 @@ img {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: Roboto, Helvetica, Arial;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   color: #444;
   font-weight: 300; }
 
@@ -1324,7 +1324,7 @@ a {
 .page-head__blog-name {
   font-size: 15px;
   font-size: 0.9375rem;
-  font-family: Montserrat, Roboto, Helvetica, Arial;
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   color: #999;
   margin-bottom: 0;
@@ -1539,7 +1539,7 @@ a {
     font-size: 24px;
     font-size: 1.5rem;
     line-height: 36px;
-    font-family: Roboto, Helvetica, Arial;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-style: italic;
     color: #aaa;
@@ -1562,7 +1562,7 @@ a {
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 36px;
-  font-family: -apple-system, Roboto, Helvetica, Arial;
+  font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #444; }
 
@@ -1767,7 +1767,7 @@ a {
   font-size: 1.5rem;
   line-height: 36px;
   color: #888;
-  font-family: Roboto, Helvetica, Arial;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   font-style: italic;
   font-weight: 300;
   position: relative;
@@ -2184,7 +2184,7 @@ width: inherit;}
 /* Generic
    ========================================================================== */
 html {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Roboto, sans-serif;
   color: #888;
   background: #fff;
   -webkit-font-smoothing: antialiased;
