@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, body {
 
 /* Attributes */
 h1, h2, h3, h4, h5, h6, body {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.6;
   letter-spacing: -0.028rem;
 }
@@ -78,9 +78,8 @@ a:hover {
 /* Elements
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  position: absolute;
-  top: 3%;
-  overflow: auto;
+  position: static;
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -99,11 +98,19 @@ a:hover {
   display: inline;
 }
 
-/* Larger than phablet */
-@media (min-width: 550px) {
+@media (max-height: 430px) and (orientation: landscape) {
   .container {
+    padding-top: 0%
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) and (min-height: 430px) {
+  .container {
+    position: absolute;
     top: 50%;
     transform: translateY(-56%);
+    padding-top: 0%;
     padding-left: 0%;
     left: 15%;
     padding-right: 15%;
