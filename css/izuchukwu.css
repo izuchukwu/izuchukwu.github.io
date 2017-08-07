@@ -1,0 +1,58 @@
+/*!
+ * izuchukwu.co
+ * Copyright (c) 2017 Izuchukwu Elechi
+ */
+
+.copyright {
+	color: #ffffff;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	color: #282828;
+	font-family: 'acumin-pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+	font-size: 2.4rem;
+	line-height: 1.5;
+	letter-spacing: 0.04rem;
+}
+
+.container {
+	position: static;
+	padding-top: 12.5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.icon-social {
+	color: #282828;
+	font-size: 2.2rem;
+	padding-right: 2.5rem;
+}
+
+.social, .footer {
+	padding-top: 2%;
+}
+
+/* Larger than phablet */
+@media (min-width: 80.0rem) {
+	h1 {
+		font-size: 2.6rem;
+	}
+
+	.container {
+		position: absolute;
+		padding-top: 10rem;
+		padding-left: 10rem;
+		padding-right: 10rem;
+	}
+
+	.social, .footer {
+		padding-top: 2rem;
+	}
+}
