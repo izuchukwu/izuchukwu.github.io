@@ -1,8 +1,8 @@
 izuchukwu.co
 =========================
 
-👋
+Hello, I'm Izuchukwu. This repo hosts my site.
 
-I'm Izuchukwu. This repo hosts my site. It's built with [Skeleton](http://getskeleton.com).
+[It's a little verbose right now, but that will be fixed tomorrow.](https://twitter.com/elonmusk/status/885776126148083712?lang=en)
 
-Typo? Coffee? Tweet [@izuchukwuuu](http://twitter.com/izuchukwuuu)
+Tweet me [@izuchukwuuu](http://twitter.com/izuchukwuuu)
